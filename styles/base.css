@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-grey: rgb(34, 34, 34);
+  --grey: rgb(51, 51, 51);
+  --light-grey: rgb(180, 180, 180);
+  --off-white: rgb(221, 221, 221);
+  --light-blue: rgb(122, 195, 255);
+}
+
+html {
+  background-color: var(--dark-grey);
+  border-left: none;
+  border-right: none;
+}
+
+body {
+  color: var(--off-white);
+  font-family: sans-serif;
+
+  width: 100%;
+  overflow-x: hidden;
+}
+
+iframe {
+  height: 20vw;
+  width: 36vw;
+  margin: 2vh;
+}
+
+.videos {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.remove {
+  display: none;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid var(--grey);
+  padding: 10vh 10vw;
+
+  background-color: var(--dark-grey);
+
+  font-size: 16px;
+}
+
+section .name {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 10vh;
+
+  color: var(--off-white);
+  font-size: 32px;
+}
+
+section .links a {
+  color: var(--light-blue);
+}
+
+section .links a {
+  transition: color 0.3s;
+}
+
+section .links a:hover {
+  color: var(--light-grey);
+}
+
+footer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  border-top: 1px solid var(--grey);
+  background-color: var(--dark-grey);
+  color: white;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.more-btn {
+  color: var(--off-white);
+  background-color: var(--grey);
+  border: 1px solid var(--off-white);
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 20px 10px;
+  transition: all 0.3s;
+}
+
+.more-btn:hover {
+  color: var(--grey);
+  background-color: var(--off-white);
+}
+
+@media only screen and (max-width: 900px) {
+  section {
+    font-size: 12px;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  iframe {
+    height: 35vh;
+    width: 75vw;
+    margin: 10px 0;
+  }
+
+  section img {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  iframe {
+    height: 35vh;
+    width: 75vw;
+    margin: 0;
+  }
+}

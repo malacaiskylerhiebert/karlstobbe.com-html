@@ -1,0 +1,17 @@
+img {
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+.big-images {
+  margin-top: 10vh;
+}
+
+.big-images img {
+  width: 40vw;
+}
+
+img:hover {
+  outline: 1px solid white;
+}

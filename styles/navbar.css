@@ -1,0 +1,54 @@
+/* Nav Bar */
+.nav-top {
+  position: sticky;
+  top: 0;
+  width: 100vw;
+}
+
+.nav-bottom {
+  position: sticky;
+  bottom: 0;
+  width: 100vw;
+}
+
+nav ul {
+  height: 60px;
+
+  list-style-type: none;
+  overflow: hidden;
+  background-color: var(--dark-grey);
+  border-top: 1px solid var(--grey);
+  border-bottom: 1px solid var(--grey);
+  font-size: 1rem;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 0;
+  padding-right: 32px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+
+nav li a {
+  transition: color 0.3s;
+}
+
+nav li a:hover {
+  color: var(--light-grey);
+}
+
+nav .all-links {
+  margin-left: 10vw;
+}
+
+nav .hamburger {
+  display: none;
+}

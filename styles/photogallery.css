@@ -1,0 +1,13 @@
+img {
+  margin: 10px;
+}
+
+section {
+  text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+  section img {
+    width: min-content;
+  }
+}

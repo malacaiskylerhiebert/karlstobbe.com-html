@@ -1,0 +1,24 @@
+/* PAGE HEADER */
+header {
+  background-image: url("./images/JudyBandsmer_PaintbrushPhotography-81.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.titles {
+  padding-top: 8vh;
+  padding-bottom: 8vh;
+  padding-left: 10vw;
+}
+
+.titles h1 {
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+
+.titles h4 {
+  font-weight: lighter;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}

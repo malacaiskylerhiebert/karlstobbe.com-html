@@ -1,0 +1,38 @@
+/* Parallax Effect */
+.parallax:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -10;
+  background: url("./images/photos/high-res/3-JudyBandsmer_PaintbrushPhotography.jpg")
+    no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.parallax-inner .titles {
+  height: 10vh;
+  margin-top: 70vh;
+  margin-bottom: calc(20vh - 60px);
+}
+
+.parallax-inner .titles h1 {
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+
+.parallax-inner .titles h4 {
+  font-weight: lighter;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
+.titles {
+  margin-left: 10vw;
+}

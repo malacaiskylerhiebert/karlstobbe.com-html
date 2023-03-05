@@ -1,0 +1,64 @@
+.back-front img {
+  width: 40vw;
+}
+
+p.about-violin,
+p.more-about,
+p.about-bows,
+p.more-about-bows {
+  width: 40vw;
+  margin: 5vh 0;
+}
+
+.more-violin,
+.bows,
+.more-bows {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.more-violin img,
+.bows img,
+.more-bows img {
+  width: 12vw;
+  margin-right: 1vw;
+}
+
+.div-line {
+  background-color: white;
+
+  width: 40vw;
+  height: 3px;
+
+  margin-bottom: 5vh;
+}
+
+@media only screen and (max-width: 900px) {
+  .back-front img {
+    width: 100%;
+  }
+
+  p.about-violin,
+  p.more-about,
+  p.about-bows,
+  p.more-about-bows {
+    width: 100%;
+  }
+
+  .more-violin,
+  .bows,
+  .more-bows {
+    width: 100%;
+  }
+
+  .more-violin img,
+  .bows img,
+  .more-bows img {
+    width: 24vw;
+  }
+
+  .div-line {
+    width: 100%;
+  }
+}

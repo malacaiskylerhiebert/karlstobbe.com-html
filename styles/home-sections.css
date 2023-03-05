@@ -1,0 +1,119 @@
+#home .content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img {
+  width: 25%;
+}
+
+#about .content,
+#contact .content,
+#media .content,
+#online-concerts .content,
+#recordings .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#recordings .quote {
+  padding-top: 10vh;
+}
+
+#online-concerts .main-trailer {
+  height: 20vw;
+  width: 36vw;
+  margin: 0;
+}
+
+#about .content {
+  width: 75%;
+}
+
+@media only screen and (max-width: 900px) {
+  #about .content {
+    width: 100%;
+  }
+}
+
+/* Buttons */
+.btns {
+  width: 100%;
+  height: 25vh;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* Media */
+#media {
+  width: 100%;
+  align-items: center;
+}
+
+#media .row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#media iframe {
+  width: 40vw;
+  height: 25vw;
+  padding: 1.5%;
+}
+
+/* Upcoming Concerts */
+#upcoming-concerts .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5vh 10vw;
+}
+
+#upcoming-concerts .content .top {
+  display: flex;
+  flex-direction: row;
+
+  padding-top: 3vh;
+}
+
+#upcoming-concerts .content .title-thing,
+#upcoming-concerts .content .top {
+  margin: 2vh 0;
+}
+
+#upcoming-concerts .content .the-concerts {
+  display: flex;
+
+  width: 39vw;
+}
+
+#upcoming-concerts .content iframe {
+  width: 40vw;
+  height: 30vw;
+
+  margin: 5px;
+}
+
+#upcoming-concerts .content .title-thing a {
+  color: rgb(122, 195, 255);
+}
+
+#upcoming-concerts .content .title-thing a {
+  transition: color 0.3s;
+}
+
+#upcoming-concerts .content .title-thing a:hover {
+  color: rgb(180, 180, 180);
+}
+
+#upcoming-concerts .link-titles {
+  margin-top: 3vh;
+}

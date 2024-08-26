@@ -1,4 +1,4 @@
 # Redirects from what the browser requests to what we serve
 
-karlstobbe.com/index.html                 karlstobbe.com/
+/index.html                 /
 /styles/images/*            /images/*
